@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Kanit;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: red;
+    color: white;
+    padding: 16px;
+    padding-bottom: 0px;
+}
+
+header img{
+    width: 60vw;
+}
+
+header div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 1.25rem;
+    margin-top: 16px;
+    font-size: x-large;
+}
+
+.place_holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    width: 100vw;
+    height: 220px;
+}
+
+.section1 h2 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.section1 {
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa_de_texto {
+    background-color: red;
+    color: white;
+    margin-top: 8px;
+    padding: 1rem;
+    border-radius: 1.8rem;
+    border: 2px solid red;
+}
+.caixa_de_texto_off {
+    margin-top: 8px;
+    border-radius: 1rem;
+    border: 2px solid red;
+    padding: 0px;
+}
+
+.caixa_de_texto_titulo {
+    font-size: 1.25rem;
+}
+.caixa_de_texto_texto {
+    font-size: 0.80rem;
+}
