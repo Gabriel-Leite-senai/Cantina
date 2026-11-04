@@ -1,0 +1,33 @@
+@media (min-width: 1080px) {
+    header {
+        flex-direction: row;
+    }
+    header img {
+        width: auto;
+        height: 64px;
+    }
+    header nav {
+        align-items: center;
+        height: 100%;
+        margin: 0px;
+    }
+    .section1{
+        padding: 64px;
+    }
+    .caixa_de_texto {
+        padding: 1.5rem;
+        border-radius: 2rem;
+        max-width: 1400px;
+    }
+    .caixa_de_texto_off {
+        padding: 8px;
+        border-radius: 2rem;
+        max-width: 1400px;
+    }
+    footer .contato {
+        flex-direction: row;
+        gap: 16px;
+        justify-content: space-evenly;
+    }
+
+}
