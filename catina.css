@@ -31,7 +31,7 @@ header img{
     width: 60vw;
 }
 
-header div {
+header nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -40,13 +40,8 @@ header div {
     font-size: x-large;
 }
 
-.place_holder {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: lightgray;
+.cantina {
     width: 100vw;
-    height: 220px;
 }
 
 .section1 h2 {
@@ -78,11 +73,71 @@ header div {
     border-radius: 1rem;
     border: 2px solid red;
     padding: 0px;
+    width: fit-content;
+    padding-right: 8px;
 }
-
 .caixa_de_texto_titulo {
     font-size: 1.25rem;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 .caixa_de_texto_texto {
     font-size: 0.80rem;
+}
+
+.section2 {
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 h2 {
+    text-align: end;
+    align-items: center;
+    gap: 16px;
+    font-size: 32px;
+    font-weight: 400;
+    margin-right: 16px;
+}
+
+.carrossel {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    list-style-type: none;
+    width: 100vw;
+    gap: 16px;
+    padding: 16px;
+    scroll-snap-type: x mandatory;
+    font-size: 2rem;
+    color: red;
+}
+.carrossel img {
+    width: 65vw;
+    height: 65vw;
+    border-radius: 5vh;
+}
+.carrossel li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: center;
+}
+
+footer {
+    background-color: red;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+footer div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 16px;
+    padding: 8px;
+}
+footer div img {
+    height: 2rem;
 }
