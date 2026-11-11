@@ -127,6 +127,29 @@ header nav {
     scroll-snap-align: center;
 }
 
+.section-mapa {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section-mapa span {
+    background-color: red;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    padding: 16px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.section-mapa img {
+    width: 80vw;
+    border-radius: 24px;
+    margin: 32px;
+    margin-bottom: 64px;
+    border: solid, 1px, gray;
+}
+
 footer {
     background-color: red;
     width: 100vw;
@@ -145,7 +168,7 @@ footer .links img {
 }
 
 footer .contato {
-    background-color: darkred;
+    background-color: #B1192D;
     color: white;
     font-size: 1rem;
     display: flex;

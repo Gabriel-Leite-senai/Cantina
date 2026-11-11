@@ -29,4 +29,23 @@
         gap: 16px;
         justify-content: space-evenly;
     }
+
+    .section-mapa span {
+    background-color: red;
+    width: 60vw;
+    text-align: center;
+    color: white;
+    padding: 16px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-radius: 64px;
+    }
+
+    .section-mapa img {
+    width: 50vw;
+    border-radius: 24px;
+    margin: 32px;
+    margin-bottom: 64px;
+    border: solid, 2px, gray;
+}
 }
